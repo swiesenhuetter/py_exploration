@@ -1,6 +1,5 @@
 from PySide6 import QtCore, QtWidgets
 
-
 def test_slot(arg: int):
     print(f"Slot 1 called with {type(arg)} = {arg}")
 
